@@ -21,10 +21,10 @@ public class Sensors {
     @Column
     private String model;
 
-    @Column
+    @Column(name = "rangefrom")
     private int rangeFrom;
 
-    @Column
+    @Column(name = "rangeto")
     private int rangeTo;
 
     @Column
