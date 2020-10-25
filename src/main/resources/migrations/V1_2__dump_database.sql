@@ -1,0 +1,14 @@
+INSERT INTO public.sensors (id, name, model, rangefrom, rangeto, type, unit, location, description) VALUES (2, 'Sensor 2', 'EH-567', -25, 25, 'Voltage', 'voltage', 'Room2', 'Sensor2-description, Sensor2-description, Sensor2-description, Sensor2-description, Sensor2-description, Sensor2-description, Sensor2-description, Sensor2-description, Sensor2-description, Sensor22222');
+INSERT INTO public.sensors (id, name, model, rangefrom, rangeto, type, unit, location, description) VALUES (1, 'Sensor 1', 'PC33-56', 0, 16, 'Pressure', 'bar', 'Room1', 'Sensor1-description, Sensor1-description, Sensor1-description, Sensor1-description, Sensor1-description, Sensor1-description, Sensor1-description, Sensor1-description, Sensor1-description, Sensor11111');
+INSERT INTO public.sensors (id, name, model, rangefrom, rangeto, type, unit, location, description) VALUES (4, 'Sensor 4', 'H94', 0, 100, 'Humidity', '%', 'Room4', 'Sensor4-description, Sensor4-description, Sensor4-description, Sensor4-description, Sensor4-description, Sensor4-description, Sensor4-description, Sensor4-description, Sensor4-description, Sensor44444');
+INSERT INTO public.sensors (id, name, model, rangefrom, rangeto, type, unit, location, description) VALUES (3, 'Sensor 3', 'TER-21', -70, 50, 'Temperature', '°C', 'Room3', 'Sensor3-description, Sensor3-description, Sensor3-description, Sensor3-description, Sensor3-description, Sensor3-description, Sensor3-description, Sensor3-description, Sensor3-description, Sensor33333');
+INSERT INTO public.type (id, name) VALUES (2, 'Voltage');
+INSERT INTO public.type (id, name) VALUES (4, 'Humidity');
+INSERT INTO public.type (id, name) VALUES (1, 'Pressure');
+INSERT INTO public.type (id, name) VALUES (3, 'Temperature');
+INSERT INTO public.unit (id, name) VALUES (1, 'bar');
+INSERT INTO public.unit (id, name) VALUES (2, 'voltage');
+INSERT INTO public.unit (id, name) VALUES (4, '%');
+INSERT INTO public.unit (id, name) VALUES (3, '°C');
+INSERT INTO public.users (id, name, role, password) VALUES (2, 'user', 'ROLE_viewer', 'user');
+INSERT INTO public.users (id, name, role, password) VALUES (1, 'admin', 'ROLE_administrator', 'admin');
